@@ -1,0 +1,112 @@
+/* style.css */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fdf8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card .prompt-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .card .tags {
+    margin-bottom: 10px;
+  }
+  
+  .card .tags span {
+    background-color: #e8e4d9;
+    color: #5a5a5a;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
+  .card button {
+    background-color: #d4a373;
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .card button:hover {
+    background-color: #b5835a;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #888;
+  }/* 搜索框样式 */
+.search-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }

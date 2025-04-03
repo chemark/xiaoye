@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "text": "masterpiece, 1girl, ghibli 风格, 温柔光影, 绘制精美的森林场景",
+      "tags": ["日系", "温柔", "插画"]
+    },
+    {
+      "id": 2,
+      "text": "ultra-detailed, cyberpunk cityscape, neon lights, futuristic, concept art",
+      "tags": ["赛博", "未来", "城市"]
+    },
+    {
+      "id": 3,
+      "text": "high quality, watercolor style, serene landscape, gentle hues, artistic inspiration",
+      "tags": ["水彩", "风景", "艺术"]
+    },
+    {
+      "id": 4,
+      "text": "vivid colors, surreal, dreamlike atmosphere, abstract shapes, creative vision",
+      "tags": ["超现实", "抽象", "创意"]
+    },
+    {
+      "id": 5,
+      "text": "detailed portrait, soft lighting, vintage aesthetic, classic illustration",
+      "tags": ["复古", "人像", "插画"]
+    }
+  ]
