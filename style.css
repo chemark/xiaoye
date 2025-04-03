@@ -92,9 +92,18 @@ body {
     font-size: 14px;
     color: #888;
   }/* 搜索框样式 */
-.search-container {
-    text-align: center;
+  .search-container {
+    display: flex;
+    justify-content: center;  /* 水平居中 */
     margin: 20px;
+  }
+  
+  #searchInput {
+    width: 300px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
   }
   
   #searchInput {
